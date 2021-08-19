@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 var WebSocket = require('ws');
 var Socks = require('socks');
 var SocksProxyAgent = require('socks-proxy-agent');
@@ -19,7 +19,7 @@ var server = "";
 var origin = null;
 var xPos, yPos, byteLength = 0;
 var connectedCount = 0;
-var botCount = 2000;
+var botCount = 100;
 var client = null;
 var users = 0;
 var sendCountUpdate = function() {};
